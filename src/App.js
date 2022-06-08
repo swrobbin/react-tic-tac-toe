@@ -1,9 +1,11 @@
 import './App.css';
+import Game from './components/Game';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <p>hello</p>
+      <Game />
     </div>
   );
 }
