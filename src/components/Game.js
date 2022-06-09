@@ -12,12 +12,12 @@ const Game = () => {
     }
 
     const renderMoves = () => {
-        
+
     }
 
   return (
     <div>
-        <Board onClick={handleClick}
+        <Board onClick={handleClick} />
 
     </div>
   )
